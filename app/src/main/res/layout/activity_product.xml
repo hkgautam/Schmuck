@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.schmuck.www.schmuck.ProductActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/llpro">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true"
+                android:id="@+id/cardproduct">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/rlcard">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp"
+                        android:id="@+id/ivlarge"
+                        android:layout_centerHorizontal="true"/>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rvthumbnail"
+                        android:layout_below="@+id/ivlarge"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvpname"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/rvthumbnail" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvpname"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/tvpprice"/>
+
+                </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#d3d3d3" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rlcard"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/butwish"
+                        android:text="Add to Wishlist"
+                        android:drawableLeft="@drawable/ic_favorite_border_black_24dp"
+                        android:textAllCaps="false"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:background="#FFFFFFFF"/>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#d3d3d3"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Share"
+                        android:paddingLeft="50dp"
+                        android:paddingRight="50dp"
+                        android:drawableLeft="@drawable/ic_share_black_24dp"
+                        android:textAllCaps="false"
+                        android:background="#FFFFFFFF"/>
+                </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:id="@+id/des"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_below="@+id/cardproduct"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/des"
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="mmkkscksnvjscksncksncksncnkscksncksncksncksncksnccksnccksnksnkcsskcnskcncksncckksnckssnckksncksncksncksncksncksncksncksncksncksncknsksncknskcnskcnksncksncksncksncksncksncksncksncksnnjnncksncksncksncksncksncksncksncksncksncksnckscnksnckscnksncksncksncksnccksncksncckncksncksncksncksncksncksncksnc"/>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/llpro"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add to Cart"
+            android:id="@+id/butcart"
+            android:drawableLeft="@drawable/ic_shopping_cart_black_24dp"
+            android:textAllCaps="false"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="#FFFFFFFF"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Buy now"
+            android:id="@+id/butbuy"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:background="#FC641B"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

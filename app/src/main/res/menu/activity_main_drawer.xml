@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="My orders" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="My cart" />
+        <item
+            android:id="@+id/nav_wishlist"
+            android:icon="@drawable/ic_favorite_border_black_24dp"
+            android:title="My wishlist" />
+    </group>
+
+    <item android:title="Marketplace">
+    <menu>
+        <item
+            android:id="@+id/nav_all_jewellery"
+            android:icon="@drawable/ic_format_align_right_black_24dp"
+            android:title="All jewellery" />
+        <item
+            android:id="@+id/nav_new_arrivals"
+            android:icon="@drawable/ic_ac_unit_black_24dp"
+            android:title="New arrivals" />
+        <item
+            android:id="@+id/nav_jewellery_sets"
+            android:icon="@drawable/ic_ac_unit_black_24dp"
+            android:title="Jewellery sets" />
+        <item
+            android:id="@+id/nav_neckpieces"
+            android:icon="@drawable/ic_ac_unit_black_24dp"
+            android:title="Neckpieces" />
+        <item
+            android:id="@+id/nav_rings"
+            android:icon="@drawable/ic_ac_unit_black_24dp"
+            android:title="Rings" />
+        <item
+            android:id="@+id/nav_earrings"
+            android:icon="@drawable/ic_ac_unit_black_24dp"
+            android:title="Earrings" />
+        <item
+            android:id="@+id/nav_bracelets"
+            android:icon="@drawable/ic_ac_unit_black_24dp"
+            android:title="Bracelets and Anklets" />
+    </menu>
+    </item>
+
+
+
+        <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Rate us" />
+            <item
+                android:id="@+id/nav_fb"
+                android:icon="@drawable/ic_near_me_black_24dp"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_insta"
+                android:icon="@drawable/ic_near_me_black_24dp"
+                android:title="Instagram" />
+            <item
+                android:id="@+id/nav_community"
+                android:icon="@drawable/ic_people_black_24dp"
+                android:title="Community" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

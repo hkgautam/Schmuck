@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Schmuck</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">511705069280278</string>
+    <string name="fb_login_protocol_scheme">fb511705069280278</string>
+    <string name="title_activity_my_cart">MyCartActivity</string>
+    <string name="title_activity_my_wishlist">MyWishlistActivity</string>
+
+</resources>

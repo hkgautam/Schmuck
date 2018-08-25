@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "683904355029",
+    "firebase_url": "https://kiara-d0cc2.firebaseio.com",
+    "project_id": "kiara-d0cc2",
+    "storage_bucket": "kiara-d0cc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683904355029:android:9514ad043f9d5202",
+        "android_client_info": {
+          "package_name": "com.kiara.www.kiara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683904355029-fvj7iaueftf231n8qur8aiit4f3n5m6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kiara.www.kiara",
+            "certificate_hash": "a7cb53ad427d185110b0e50273a326580982b039"
+          }
+        },
+        {
+          "client_id": "683904355029-dt2msrvl0vrgeskh8esp4rfamml36d3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP7PvtGZC91Ry3-rHDwwXjd5zdpuiSxfE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683904355029-dt2msrvl0vrgeskh8esp4rfamml36d3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
